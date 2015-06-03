@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ff-tisa-web-pro, serif;
+}
+a {
+	text-decoration: none;
+}
+
+/* ----- Subheader Styles (On top) ----- */
+
+.subheader {
+	width: 100%;
+	height: 83px;
+	background-color: #333333;
+	top: 0;
+	color: #fff;
+	position: absolute;
+	padding: 20px 40px;
+	border-bottom: 2px dotted #fff;
+}
+.course-title {
+	font-size: 42px;
+}
+.subheader-links {
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    right: 50px;
+}
+.subheader-link {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+/* --------- Header (Background and Left Nav) Styles ------- */
+
+.header {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-image: url("assets/mason-teaching.jpg");
+	position: absolute;
+}
+.logo-image {
+	width: 140px;
+	position: absolute;
+	top: 85px;
+	left: 100px;
+	opacity: .8;
+}
+.header-links-left {
+	position: absolute;
+	width: 15%;
+	background-color: rgba(255, 255, 255, .8);
+	top: 230px;
+	left: 60px;
+}
+.header-link {
+	color: #333333;
+	font-size: 20px;
+	padding: 15px;
+	border-top: 2px dotted #333333;
+	display: block;
+}
+.header-links-right {
+	position: absolute;
+	width: 15%;
+	background-color: rgba(0, 0, 0, .6);
+	top: 450px;
+	left: 60px;
+	border-top: 2px dotted #fff;
+	border-bottom: 2px dotted #000;
+}
+.header-gray-link {
+	display: none;
+}
+.header-button-link {
+	color: #eee;
+}
+
+
+/* ----------- Main Content Styles ----------- */
+
+.content {
+	position: absolute;
+	right: 25px;
+	top: 125px;
+	width: 75%;
+	background-color: rgba(255, 255, 255, .8);
+	padding: 30px;
+	font-size: 20px;
+	line-height: 28px;
+}
+.tagline {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.body-content {
+	margin-bottom: 20px;
+}
+.key-points {
+	margin: 20px;
+}
+.key-item {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 25px;
+}
+.key-text {
+	margin-left: 10px;
+	padding-left: 25px;
+	line-height: 70px;
+	vertical-align: top;
+}
+.key-item:nth-of-type(2n) .key-text{
+	text-align: right;
+	padding-left: 0px;
+}
+.key-image {
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	display: inline-block;
+}
+.key-image:nth-of-type(2n+1) {
+	margin-right: 10px;
+}
+.clock {
+	background-image: url("assets/clock.png");
+	float: left;
+}
+.tetris {
+	background-image: url("assets/tetris.png");
+	float: right;
+}
+.interface {
+	background-image: url("assets/front-end-interface.png");
+	float: left;
+}
+.lambda {
+	background-image: url("assets/lambda.png");
+	float: right;
+}
+.computers {
+	background-image: url("assets/computers.png");
+	float: left;
+}
+.brain {
+	background-image: url("assets/brain-guy.png");
+	float: right;
+}
