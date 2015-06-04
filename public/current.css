@@ -1,0 +1,188 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: ff-tisa-web-pro, serif;
+}
+
+a {
+	text-decoration: none;
+	color: RGB(243, 246, 250);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-size: 19px;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+/*header*/
+.header {
+	background-color: RGB(56, 71, 77);
+	height: 110px;
+	line-height: 110px;
+
+}
+
+.header-link {
+	text-transform: uppercase;
+	margin: 0px .3em;
+
+}
+
+/*iron yard logo*/
+.header-logo {
+
+}
+
+.logo-image {
+	display: inline-block;
+	height: 100%;
+	float: left;
+	padding: 20px 0px;
+	margin-left: 122px;
+
+}
+
+/*links in header */
+
+.header-links-left {
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: sub;
+}
+
+.header-links-right {
+	display: inline-block;
+	position: absolute;
+	right: 117px;
+	top: 5px;
+	background-color: RGB(56, 71, 77);
+	font-size: 14px;
+	height: 50px;
+}
+
+.header-gray-link {
+	color: RGB(138, 147, 153);
+
+}
+
+.header-button-link { /*will likely need to use position; check guardian for overlap behavior*/
+	background-color: RGB(104, 187, 183);
+	border-radius: 5px;
+	padding: 11px 13px;
+	font-size: 16px
+}
+
+/*subheader*/
+
+.subheader {
+	background-color: RGB(208, 129, 67);
+	padding: 20px 117px;
+}
+
+.course-title {
+	color: white;
+	font-size: 60px;
+	border-bottom: solid RGB(231, 192, 157) 3px;
+	font-weight: bold;
+}
+
+.subheader-links {
+	margin-top: 11px;
+	font-size: 18px;
+
+}
+
+.subheader-link {
+	padding-left: 9px;
+	padding-right: 11px;
+}
+
+
+/*main content*/
+
+.content {
+	padding: 20px 116px;
+}
+
+.tagline {
+	color:RGB(208, 129, 67) ;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.image-right {
+	background-image: url("assets/mason-teaching.jpg");
+	height: 200px;
+	width: 300px;
+	float: right;
+	margin-right: 20px;
+	margin-left: 5px;
+
+}
+
+.body-content {
+	line-height: 1.65em;
+	font-size: 18px;
+}
+
+/*key point box */
+
+.key-points {
+	background-color: RGB(227, 231, 233);
+	font-size: 0px;
+}
+
+.key-item {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	padding: 3.5% 3%;
+}
+
+.key-image {
+	height: 100px;
+	width: 100px;
+	margin: 0px auto;
+}
+
+.key-text {
+	font-size: 19px;
+}
+
+
+/*key images*/
+.clock {
+	background-image: url("assets/clock.png");
+}
+
+.tetris {
+	background-image: url("assets/tetris.png");
+}
+
+.interface {
+	background-image: url("assets/front-end-interface.png");
+}
+
+.lambda {
+	background-image: url("assets/lambda.png");
+}
+
+.computers {
+	background-image: url("assets/computers.png");
+}
+
+.brain {
+	background-image: url("assets/brain-guy.png");
+}
+
+
