@@ -1,0 +1,221 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #39474E;
+	padding: 10px;
+}
+
+.header-links-left a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+.header-link.header-button-link {
+	background-color: #70BCB7;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 5px;
+}
+/*Left Header*/
+.logo-image {
+	height: 75px ;
+	width: 75px;
+	display: inline-block;
+	
+}
+
+.header-links-left {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	line-height: 75px;
+}
+
+.header-link {
+	padding: 0px 7px;
+	position: relative;
+	left: 100px;
+	top: 3px;
+}
+
+/*Right Header*/
+
+.header-links-right a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #9199A0;
+	font-size: 14px 
+}
+.header-links-right {
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	top: 37px;
+}
+
+/*Orange Header*/
+.subheader {
+	background-color: #CD8236;
+	padding: 50px;
+}
+
+.course-title {
+	color: white ;
+	font-size: 72px;
+	margin-left: 100px;
+	width: 80%;
+	font-family: 'Serif';
+	border-bottom: 4px solid #E3BE98;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.subheader-links {
+	margin-left: 100px; 
+}
+
+.subheader-link {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	margin-right: 15px;
+	position: relative;
+	top: 15px;
+}
+
+/* White Space */
+
+.content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 85%;
+	margin: 0px auto;
+}
+
+.tagline{
+	color: #CD8236;
+	font-family: 'Serif';
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+	margin-bottom: 20px;
+	left: 50px;
+
+}
+
+.body-content {
+	width: 57%;
+	position: relative;
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 18px;
+	left: 50px;
+
+}
+
+.image-right {
+	background-image: url("assets/mason-teaching.jpg");
+	height: 200px;
+	width: 300px;
+	right: 205px;
+	position: absolute;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+/*Gray Bottom*/
+.key-item{
+	width: 25%;
+	display: inline-block;
+	font-size: 12px;
+	position: relative;
+	left: 50px;
+	text-align: center;
+	margin: 0px 20px 20px 20px;	
+	vertical-align: top;
+
+}
+
+.key-points {
+	background-color: #E3E7E9;
+	padding: 50px;
+	margin-top: 75px;
+	width: 88%;
+	position: relative;
+	left: 40px;
+}
+
+.key-image {
+	position: relative;
+	left: 65px;
+
+}
+
+.key-text {
+	font-size: 14px;
+}
+
+
+.clock {
+	background-image: url("assets/clock.png");
+	height: 100px;
+	width: 100px;
+}
+
+.tetris {
+	background-image: url("assets/tetris.png");
+	height: 100px;
+	width: 100px;
+}
+
+.interface {
+	background-image: url("assets/front-end-interface.png");
+	height: 100px;
+	width: 100px;
+}
+
+.lambda {
+	background-image: url("assets/lambda.png");
+	height: 100px;
+	width: 100px;
+}
+
+.computers{
+	background-image: url("assets/computers.png");
+	height: 100px;
+	width: 100px;
+}
+
+.brain {
+	background-image: url("assets/brain-guy.png");
+	height: 100px;
+	width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
