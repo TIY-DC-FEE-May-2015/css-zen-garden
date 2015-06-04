@@ -149,6 +149,7 @@ a:visited {
 	display: inline-block;
 	position: relative;
 	width: 100%;
+	margin-top: 20px;
 }
 
 .key-item {
@@ -156,7 +157,8 @@ a:visited {
 	display: inline-block;
 	vertical-align: top;
 	line-height: 40px;
-	text-align: center;
+	text-align: left;
+	margin-bottom: 40px;
 	position: relative;
 }
 
@@ -164,7 +166,14 @@ a:visited {
 	display: inline-block;
 	line-height: 40px;
 	vertical-align: top;
-	margin: 5px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+
+.key-item:nth-child(2n+0) .key-text{
+	position: absolute;
+	right: 50px;
 }
 
 .key-image {
@@ -181,6 +190,8 @@ a:visited {
 
 .key-image.tetris {
 	background-image: url("assets/tetris.png");
+	position: absolute;
+	right: 0px;
 }
 
 .key-image.interface {
@@ -189,6 +200,8 @@ a:visited {
 
 .key-image.lambda {
 	background-image: url("assets/lambda.png");
+	position: absolute;
+	right: 0px;
 }
 
 .key-image.computers {
@@ -197,6 +210,8 @@ a:visited {
 
 .key-image.brain {
 	background-image: url("assets/brain-guy.png");
+	position: absolute;
+	right: 0px;
 }
 
 
