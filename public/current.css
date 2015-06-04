@@ -19,7 +19,7 @@ body {
 }
 
 p {
-	padding: 10px 0px;
+	padding-bottom: 20px;
 }
 
 /*header*/
@@ -32,6 +32,8 @@ p {
 
 .header-link {
 	text-transform: uppercase;
+	margin: 0px .3em;
+
 }
 
 /*iron yard logo*/
@@ -44,6 +46,7 @@ p {
 	height: 100%;
 	float: left;
 	padding: 20px 0px;
+	margin-left: 122px;
 
 }
 
@@ -51,13 +54,18 @@ p {
 
 .header-links-left {
 	display: inline-block;
+	font-size: 16px;
+	vertical-align: sub;
 }
 
 .header-links-right {
 	display: inline-block;
 	position: absolute;
-	right: 100px;
+	right: 117px;
+	top: 5px;
 	background-color: RGB(56, 71, 77);
+	font-size: 14px;
+	height: 50px;
 }
 
 .header-gray-link {
@@ -68,37 +76,48 @@ p {
 .header-button-link { /*will likely need to use position; check guardian for overlap behavior*/
 	background-color: RGB(104, 187, 183);
 	border-radius: 5px;
-	padding: 14px 10px;
+	padding: 11px 13px;
+	font-size: 16px
 }
 
 /*subheader*/
 
 .subheader {
 	background-color: RGB(208, 129, 67);
-	padding: 20px 100px;
+	padding: 20px 117px;
 }
 
 .course-title {
 	color: white;
-	font-size: 42px;
+	font-size: 60px;
 	border-bottom: solid RGB(231, 192, 157) 3px;
+	font-weight: bold;
 }
 
-.subheader-links {}
+.subheader-links {
+	margin-top: 11px;
+	font-size: 18px;
 
-.subheader-link {}
+}
+
+.subheader-link {
+	padding-left: 9px;
+	padding-right: 11px;
+}
 
 
 /*main content*/
 
 .content {
-	padding: 20px 100px;
+	padding: 20px 116px;
 }
 
 .tagline {
 	color:RGB(208, 129, 67) ;
-	font-size: 20px;
+	font-size: 28px;
 	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .image-right {
@@ -106,12 +125,14 @@ p {
 	height: 200px;
 	width: 300px;
 	float: right;
-	margin: 0px 20px;
+	margin-right: 20px;
+	margin-left: 5px;
 
 }
 
 .body-content {
-	line-height: 1.55em;
+	line-height: 1.65em;
+	font-size: 18px;
 }
 
 /*key point box */
@@ -125,7 +146,7 @@ p {
 	width: 33%;
 	display: inline-block;
 	text-align: center;
-	padding: 3%;
+	padding: 3.5% 3%;
 }
 
 .key-image {
