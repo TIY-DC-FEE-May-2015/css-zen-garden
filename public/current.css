@@ -1,4 +1,4 @@
-* {
+e* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -40,13 +40,15 @@ a:visited {
 	display: inline-block;
 	color: rgb(178, 184, 190);
 	line-height: 75px;
+	position:relative;
+	width: 40%;
 }
 
 .header-links-right {
 	line-height: 75px;
 	display: inline-block;
-	position: absolute;
-	right: 10%;
+	position: relative;
+	width: 40%%;
 }
 
 .header-gray-link {
@@ -133,57 +135,40 @@ a:visited {
 
 .key-item {
 	display: inline-block;
-	width: 30%;
+	width: 27%;
 	padding: 2%;
 	vertical-align: top;
 }
 
-.key-image.clock {
+.key-image {
 	width: 100px;
 	height: 100px;
 	display: inline-block;
+	margin: 20px;	
+}
+
+.clock {
 	background-image: url("assets/clock.png");
-	margin: 20px;
 }
 
-.key-image.tetris {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
+.tetris {
 	background-image: url("assets/tetris.png");
-	margin: 20px;
 }
 
-.key-image.interface {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
+.interface {
 	background-image: url("assets/front-end-interface.png");
-	margin: 20px;
 }
 
-.key-image.lambda {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
+.lambda {
 	background-image: url("assets/lambda.png");
-	margin: 20px;
 }
 
-.key-image.computers {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
+.computers {
 	background-image: url("assets/computers.png");
-	margin: 20px;
 }
 
-.key-image.brain {
-	width: 100px;
-	height: 100px;
-	display: inline-block;
+.brain {
 	background-image: url("assets/brain-guy.png");
-	margin: 20px;
 }
 
 
