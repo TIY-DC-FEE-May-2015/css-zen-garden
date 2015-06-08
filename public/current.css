@@ -59,7 +59,7 @@ font-family: ff-tisa-web-pro, serif;
 	width:100%;
 	background-color:#CD8236;
 	left:50px;
-	height:50vh;
+	height:40vh;
 	padding-left:30px;
 
 }
@@ -82,6 +82,7 @@ font-family: ff-tisa-web-pro, serif;
 	position:absolute;
 	right:10px;
 	margin-right:10px;
+	float:right;
 
 }
 .subheader-link{
