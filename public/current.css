@@ -1,0 +1,176 @@
+e* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ff-tisa-web-pro, serif;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(253, 252, 250)
+}
+
+a:visited {
+	color: none;
+}
+
+.header {
+	background: rgb(57, 71, 78);
+	width: 100%;
+	height: 100px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 10%;
+	vertical-align: top;
+	position: relative;
+}
+
+.logo-image {
+	width: auto;
+	height: 75px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header-link {
+	padding-left: 10px;
+}
+
+.header-links-left {
+	display: inline-block;
+	color: rgb(178, 184, 190);
+	line-height: 75px;
+	position:relative;
+	width: 40%;
+}
+
+.header-links-right {
+	line-height: 75px;
+	display: inline-block;
+	position: relative;
+	width: 40%%;
+}
+
+.header-gray-link {
+	color: rgb(137, 146, 153);
+	margin-right: 5px;
+}
+
+.header-button-link {
+	height: 50px;
+	width: 100px;
+	background: rgb(111, 187, 183);
+	padding: 10px 10px;
+	border-radius: 5px
+}
+
+
+
+
+
+.subheader {
+	background: rgb(205, 130, 54);
+	color: rgb(253, 252, 250);
+	width: 100%;
+	height: 170px;
+	padding: 20px 10%;
+}
+
+.course-title {
+	font-size: 48px;
+	font-weight: bold;
+	border-bottom: solid 2px rgba(253, 252, 250, .5);
+	padding-bottom: 5px;
+}
+
+.subheader-links {
+	padding: 10px 0px;
+	line-height: 40px;
+}
+
+.subheader-link {
+	padding-right: 20px;
+}
+
+
+
+
+.content{
+	padding: 20px 10%;
+}
+
+.tagline {
+	color: rgb(205, 130, 54);
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+}
+
+.body-content {
+	padding: 10px 0px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.image-right {
+	background-image: url("assets/mason-teaching.jpg");
+	height: 200px;
+	width: 300px;
+	float: right;
+	margin-left: 10px;
+}
+
+.key-points {
+	background: rgb(227, 231, 233);
+	color: rgb(59, 69, 75);
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	padding-top: 0px;
+	margin-top: 15px;
+}
+
+.key-item {
+	display: inline-block;
+	width: 27%;
+	padding: 2%;
+	vertical-align: top;
+}
+
+.key-image {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 20px;	
+}
+
+.clock {
+	background-image: url("assets/clock.png");
+}
+
+.tetris {
+	background-image: url("assets/tetris.png");
+}
+
+.interface {
+	background-image: url("assets/front-end-interface.png");
+}
+
+.lambda {
+	background-image: url("assets/lambda.png");
+}
+
+.computers {
+	background-image: url("assets/computers.png");
+}
+
+.brain {
+	background-image: url("assets/brain-guy.png");
+}
+
+
+
+
