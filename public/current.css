@@ -1,0 +1,193 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: ff-tisa-web-pro, serif;
+}
+
+.header{
+	width:100%;
+	background-color:#39474E;
+	left:30px;
+	height:30vh;
+	}
+.header-logo{
+	position:relative;
+	left:50px;
+}
+
+.header-links-left{
+	margin-left:0px;
+	margin-right:auto;
+	display: inline-block;
+	position:relative;
+	bottom:60px;
+	left:60px;
+	font-size:20px;
+}
+
+.header-link{
+	color:white;
+	text-transform:uppercase;
+	text-decoration:none;
+	margin-left:20px;
+}
+
+.header-links-right{
+	display:inline;
+	margin-left:auto;
+	margin-right:0px;
+	position: relative;
+	bottom:60px;
+	text-align:right;
+	left:200px;
+}
+.header-gray-link{
+	color:grey;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+.header-button-link{
+	background-color:#6FBBB7;
+	padding:20px;
+	border-radius: 10px;
+
+}
+	
+.subheader{
+	display: inline-block;
+	width:100%;
+	background-color:#CD8236;
+	left:50px;
+	height:40vh;
+	padding-left:30px;
+
+}
+
+.course-title{
+	color:#FFFFFF;
+	font-size:100px;
+	border-bottom:solid 4px #E5C098;
+	padding:20px;
+	padding-top:10px;
+	margin-left:20px;
+	margin-top:40px;
+}
+
+.image-right{
+	background-image:url("assets/mason-teaching.jpg");
+	height:50vh;
+	width:50%;
+	background-size:cover;
+	position:absolute;
+	right:10px;
+	margin-right:10px;
+	float:right;
+
+}
+.subheader-link{
+	display:inline-block;
+	text-decoration:none;
+	padding:20px;
+	font-size:30px;
+	color:#FFFFFF;
+	margin-left:40px;
+}
+
+.tagline{
+	color:#CD8236;
+	margin-left:50px;
+	font-size:25px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+.key-points{
+	background-color:#E3E7E9;
+	display:inline-block;
+}
+
+.body-content{
+	margin-left:50px;
+	width:40%;
+	margin-top:20px;
+	margin-bottom:40px;
+	line-height:2;
+}
+
+.key-item{
+	display: inline-block;
+	height:30vh;
+	margin-left:30px;
+	text-align:center;
+	margin-top: 10px;
+	width:25%;
+}
+
+.key-text{
+	display:inline-block;
+	padding:20px;
+	width:80%;
+}
+
+.key-image.clock{
+	background-image:url("assets/clock.png");
+	display: inline-block;
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:14vh;
+	width:31%;
+	position: relative;
+}
+
+.key-image.tetris{
+	background-image:url("assets/tetris.png");
+	display: inline-block;
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:14vh;
+	width:31%;
+	position: relative;
+}
+
+.key-image.interface{
+	background-image:url("assets/clock.png");
+	display: inline-block;
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:14vh;
+	width:31%;
+	position: relative;
+}
+
+.key-image.lambda{
+	background-image:url("assets/front-end-interface.png");
+	display: inline-block;
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:14vh;
+	width:31%;
+	position: relative;
+}
+
+.key-image.computers{
+	background-image:url("assets/computers.png");
+	display: inline-block;
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:14vh;
+	width:31%;
+	position: relative;
+}
+
+.key-image.brain{
+	background-image:url("assets/brain-guy.png");
+	display: inline-block;
+	background-repeat:no-repeat;
+	margin-left:20px;
+	height:14vh;
+	width:31%;
+	position: relative;
+}
+
+
